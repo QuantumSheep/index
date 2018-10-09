@@ -42,7 +42,7 @@ nav{
 .menu li a{
     text-decoration:none;
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
     padding: 10px 15px;
     transition:background .2s linear;
 }
@@ -118,7 +118,7 @@ nav{
     border-radius:50%;
     width:200px;
     height:200px;
-    border:1px solid #353b48;
+    border:2px solid #353b48;
 }
 #footer{
     color: #7f8c8d;
@@ -129,13 +129,43 @@ nav{
 #avatar{
     background:url(../media/avatar.jpg)
     no-repeat 0px 0px; background-size: cover;
+    margin: 20px;
 }
-#conteneur
-{
+.flexcontainer {
     display: flex;
-    justify-content: space-around;
-}
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+ }
 #avatarpos{
     display: flex;
     justify-content: center;
+}
+.aside{
+    overflow:hidden;
+    width:800px;
+    height:200px;
+    border-radius: 25px;
+    background: #353b48;
+    padding: 20px; 
+    color: #8e44ad;
+    border:2px solid #8e44ad;
+    font-family: font;
+}
+.article{
+    overflow:hidden;
+    width:800px;
+    height:200px;
+    border-radius: 25px;
+    background: #353b48;
+    padding: 20px; 
+    color: #8e44ad;
+    border:2px solid #8e44ad;
+    font-family: font;
+}
+h1{
+font-size: 2vw
+}
+p{
+font-size: 1vw;
 }
