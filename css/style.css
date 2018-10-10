@@ -38,6 +38,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    height: 100%;
 }
 .menu li a{
     text-decoration:none;
@@ -45,10 +46,10 @@ nav{
     font-size: 20px;
     padding: 10px 15px;
     transition:background .2s linear;
+    display: inline-block;
 }
 .menu li a:hover{
-    background: #8e44ad;
-    border-radius: 5px;
+    background: rgba(142, 68, 173, 0.4);
 }
 
 .Site {
@@ -99,8 +100,7 @@ nav{
     width:30vw;
     height:30vh;
     background: #353b48;
-    padding: 3%; 
-    color: #8e44ad;
+    padding: 3%;
     font-family: font;
 }
 .article{
@@ -108,8 +108,7 @@ nav{
     width:30vw;
     height:30vh;
     background: #353b48;
-    padding: 3%;  
-    color: #8e44ad;
+    padding: 3%;
     font-family: font;
     
 }
